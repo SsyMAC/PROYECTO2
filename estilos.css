@@ -423,15 +423,4 @@ footer p {
     .iconos {
         margin: auto;
     }
-    .boton-personalizado {
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 20px;
-        color: #ffffff;
-        padding-top: 20px;
-        padding-bottom: 20px;
-        padding-left: 40px;
-        padding-right: 40px;
-        background-color: #005BBB;
-    }
 }

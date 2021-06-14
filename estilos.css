@@ -424,3 +424,22 @@ footer p {
         margin: auto;
     }
 }
+button{
+    text-decoration: none;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 25px;
+    font-style: italic;
+    color: #fae209;
+    background-color: #f7ac0b;
+    border-radius: 15px;
+    border: 3px double #da670a;
+    
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }

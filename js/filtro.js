@@ -10,13 +10,13 @@ $(function () {
         }
     });
 
-    let equipo = $('#equipo').offset().top,
+    let equipo = $('#recomendado').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
 
     window.addEventListener('resize', function(){
-        let equipo = $('#equipo').offset().top,
+        let equipo = $('#recomendado').offset().top,
         servicio = $('#servicio').offset().top,
         trabajo = $('#trabajo').offset().top,
         contacto = $('#contacto').offset().top;
@@ -29,10 +29,10 @@ $(function () {
         },600);
     });
 
-    $('#enlace-equipo').on('click', function(e){
+    $('#enlace-recomendado').on('click', function(e){
         e.preventDefault();
         $('html, body').animate({
-            scrollTop: equipo -100
+            scrollTop: recomendado -100
         },600);
     });
 
